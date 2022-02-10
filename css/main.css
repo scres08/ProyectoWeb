@@ -1,0 +1,74 @@
+/*Estilos body y header*/
+body {
+  background-color: black; }
+  body header .container h1 {
+    text-align: center;
+    background: linear-gradient(90deg, #2b42d2 5%, #a5a5c4 47%, #c9020d 100%);
+    font-family: Lucida "Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white; }
+  body header .container span {
+    color: #e91111; }
+  body header .container nav ul li:hover {
+    background: linear-gradient(90deg, #2b42d2 5%, #a5a5c4 47%, #c9020d 100%); }
+
+/*Tocando estilos cartas en main*/
+body main .container h2 {
+  color: antiquewhite; }
+
+body main .container .somos {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: azure;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 80px;
+  margin-bottom: 25px;
+  text-align: center; }
+
+body main .container .productosGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between; }
+  body main .container .productosGrid .img2 {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: auto;
+    padding-right: auto; }
+  body main .container .productosGrid .img3 {
+    padding-top: 1%; }
+  body main .container .productosGrid .img4 {
+    padding-top: 5%; }
+  body main .container .productosGrid .img5 {
+    padding-top: 5%; }
+
+/*Trabajando footer*/
+.footerCont .container {
+  text-align: center;
+  background: linear-gradient(90deg, #2b42d2 5%, #a5a5c4 47%, #c9020d 100%);
+  margin-top: 5%; }
+  .footerCont .container .h6 {
+    font-size: 20px;
+    color: #050505; }
+  .footerCont .container .redesCont .insta {
+    background-color: #833ab4;
+    margin-right: 5%;
+    width: 80%;
+    height: 70%; }
+  .footerCont .container .redesCont .Face {
+    background-color: #3b5998;
+    margin-right: 5%;
+    margin-left: 5%; }
+  .footerCont .container .redesCont .Twitt {
+    background-color: #00acee;
+    margin-right: 5%; }
+  .footerCont .container .infoCont {
+    display: grid;
+    justify-content: space-evenly; }
+    .footerCont .container .infoCont a {
+      font-size: 15px;
+      font-weight: 500;
+      margin-top: 25px;
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: #0f0f0f; }
+  .footerCont .container .end .small {
+    color: black; }

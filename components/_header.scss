@@ -1,0 +1,28 @@
+// Estilos de body y header
+/*Estilos body y header*/
+body{
+    background-color: $background-body;
+    header{
+        .container{
+          h1{
+            text-align: $text-align;
+            background:$background-heafoot;
+            font-family: $fontheafoot;
+            color: $color-Foot;
+          }     
+          span{
+            color: rgb(233, 17, 17);
+             }
+            nav{
+                ul{
+                    li{
+                          &:hover{
+                           background: $background-heafoot
+                        }
+                    }
+                }
+            }
+                }     
+
+        }   
+    }

@@ -1,0 +1,46 @@
+/*Trabajando footer*/
+
+.footerCont{
+    .container{
+        text-align: center;
+        background: linear-gradient(90deg, rgba(43,66,210,1) 5%, rgba(165,165,196,1) 47%, rgba(201,2,13,1) 100%);
+        margin-top: 5%;
+        .h6{  font-size: 20px;
+            color: rgb(5, 5, 5);
+            }
+            .redesCont{
+            .insta{
+                background-color: rgb(131, 58, 180);
+                margin-right: 5%;
+                width: 80%;
+                height: 70%;
+            }
+            .Face{
+                background-color:rgb(59, 89, 152);
+                margin-right: 5%;
+                margin-left: 5%;
+            }
+            .Twitt{
+                background-color: rgb(0, 172, 238);
+                margin-right: 5%;
+            }
+                }
+            .infoCont{
+                display: grid;
+                justify-content: space-evenly;
+                a{
+                    font-size: 15px;
+                    font-weight: 500;
+                    margin-top: 25px;
+                    margin-bottom: 10px;
+                    text-decoration: none;
+                    color: rgb(15, 15, 15);
+                }
+            }
+            .end{
+                .small{
+                    color: black;
+                }
+            }
+    }
+}

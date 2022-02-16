@@ -1,0 +1,215 @@
+// Estilos main
+
+/*background proyecto*/
+body{
+    .container{
+    background-image: url(https://scontent.fros9-1.fna.fbcdn.net/v/t1.6435-9/72563384_1467194086766886_8584923503331901440_n.png?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeFHyUwtVbfvFWis4HyNwQyeMRyhXB1MOVExHKFcHUw5UVYnIgNY_N3LWAeuK_YSu64&_nc_ohc=jVWa8rRttscAX9fYu51&tn=5mJf3zXrLvsh2HTR&_nc_ht=scontent.fros9-1.fna&oh=00_AT9kilwxfHkH0sSRoNHFEZVFE0_A9A39izR8jrQB3_PuNQ&oe=623366A5);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    background-attachment: fixed;
+            }
+    }
+/*paráfos*/
+main{
+    .container{
+
+    .somos{
+        font-family: $font-somos;
+        color:$color-somos;
+        font-style: $fontStyle-somos;
+        font-weight: $fontweight-somos;
+        margin-top: $marginTop-somos;
+        margin-bottom: $marginBottom-somos;
+        text-align: $textalign-somos;
+        margin-left: $marginLeft-somos;
+        margin-right: $marginRight-somos;
+    }
+    }
+}
+/*Tocando carusel*/
+body{
+    main{ h5{
+        color: darkred;
+        font-family:cursive;
+        font-size:xx-large;
+        font-weight: bolder;}
+        .pCarousel{
+            color:rgb(250, 250, 250) ;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size:larger;
+            font-weight: bolder;
+            .tTengo span{    
+                color: darkred;
+                        }
+            .estamos{ color: darkred;}
+
+                }
+    
+
+    }
+}
+/*cajas en inicio*/
+main{
+    .container{
+
+    
+    .caja{color: antiquewhite;
+        background-color: black;
+        background-image: url(https://homesolution.net/blog/wp-content/uploads/2019/12/t%C3%A9rmica-y-disyuntor-2-1024x768.jpg);
+        width: 100%;
+        height: 555px;
+        margin: 5px;
+        margin-top: 250px;
+        margin-bottom: 100px;
+        text-align: center;
+
+        }
+    .efecto .caja{
+        &:hover{
+        background-image: url(https://www.roker.com.ar/wp-content/uploads/2021/01/730.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    }
+    .caja2{color: whitesmoke;
+        border: 3px solid white;
+         width: 100%;
+        height: 600px;
+        margin: 5px;
+        margin-left: 5px;
+        margin-right: 1px;
+        margin-bottom: auto;
+        margin-top: auto;
+        background-image: url(https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/article/5ed8bbfa5cafe83ba2fd14b4/electricidad-sombras_0.jpg);
+        background-size: 35rem;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        text-align: center;
+       
+           }
+           .efecto2 .caja2{
+
+            &:hover{
+                background-image: url(../Pics/circuito_serie.jpg);
+    
+                  }
+               }
+              }
+   }
+
+   /*banner*/
+
+   main{
+       .container{
+           .cumpleSerra{
+               .banner{
+                   margin-top: 30%;
+               }
+           }
+       }
+   }
+/*Tocando estilos cartas (cards) en main*/
+body{
+    main{
+        .container{
+            h2{
+                color: rgb(1, 1, 20);
+                font-weight: bold;
+                margin-top: 5px;
+             }
+            .somos{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+                color: $color-somos;
+                font-style: $fontStyle-somos;
+                font-weight: $fontweight-somos;
+                margin-top: $marginTop-somos;
+                margin-bottom: $marginBottom-somos;
+                text-align: $textalign-somos;
+                margin-left:$marginLeft-somos ;
+                margin-right:$marginRight-somos ;
+                 }
+           .productosGrid{
+            display: grid;
+            grid-template-columns: auto auto auto ;
+            justify-content:space-between;
+                .img1{
+                    margin-left: 5%;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 3s;
+                    }
+                }
+                .img2{
+                    padding-bottom: 5%;
+                    padding-top: 5%;
+                    padding-left: auto;
+                    padding-right: auto;
+                    margin-left: 25%;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 3s;
+                        margin-left: 45%;
+                    }
+                    
+                }
+                .img3{
+                    padding-top: 1%;
+                    margin-left: 75%;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 3s;
+                        margin-left: 60%;
+                    }
+                    
+                }
+                .img4{
+                    padding-top: 5%;
+                    margin-left: 5%;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 3s;
+                        margin-left: 25%;
+                    }
+                }
+                .img5{
+                    padding-top: 5%;
+                    margin-left: 25%;
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 3s;
+                        margin-left: 45%;
+                    }
+                }
+                 }
+              }
+
+    }
+}
+
+/*Quienes somos*/
+main{
+    .container{
+        .videoSerra{
+            display: flex;
+            justify-content: center;
+            margin-top: 15%;
+            margin-bottom: 15%;
+           
+          }
+    }
+}
+   /*Ubicacion*/
+main{
+    .container{
+
+    .ubicacionMaps{
+       .somos{
+        margin-top: 15%;
+        margin-bottom: 15%;
+        margin-left: 5%;
+       }
+    }
+    }
+}

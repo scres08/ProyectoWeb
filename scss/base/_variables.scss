@@ -1,0 +1,22 @@
+// Variables para el body, header y footer//
+$color-Foot: rgb(255, 255, 255);
+$text-align:center;
+$background-heafoot: linear-gradient(90deg, rgba(43,66,210,1) 5%, rgba(165,165,196,1) 47%, rgba(201,2,13,1) 100%);
+$fontheafoot:Lucida 'Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,;
+$background-body:rgb(0, 0, 0);
+
+/*variables parráfos*/
+$font-somos:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+$color-somos:rgb(131, 6, 6);
+$fontStyle-somos:italic;
+$fontweight-somos:bold;
+$marginTop-somos:80px;
+$marginBottom-somos:25px;
+$textalign-somos:center;
+$marginLeft-somos:auto;
+$marginRight-somos:auto;
+
+
+/*animaciones*/
+
+$transformaciones: scale(0.5,1)

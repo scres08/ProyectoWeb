@@ -1,0 +1,41 @@
+/*mixin ubicacion*/
+@mixin rosario {
+    display: grid;
+    grid-auto-flow: dense;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 25%;
+   
+
+}
+
+.rosario{
+    @include rosario;
+    
+}
+
+@mixin sanLorenzo {
+    display: grid;
+    grid-auto-flow: dense;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 25%; 
+}
+
+.sanLorenzo{
+    @include sanLorenzo;
+}
+
+@mixin animaciones($transformaciones) {
+    transform:$transformaciones
+    
+}
+
+.efecto{
+    @include animaciones(scale(85%))
+}
+.efecto2{
+    @include animaciones(scale(85%))
+}

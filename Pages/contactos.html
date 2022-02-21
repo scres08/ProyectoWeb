@@ -23,14 +23,24 @@
 <!-- se puede trabajar con container ó container-fluid -->
 <header id="top">
     <div class="container">
-        <h1 class="titleIndex"><span> Contáctanos</span></h1>
+        <div class="row navbar-logo ">
+            <a chref="#">
+                <img src="../Pics/logo-dos.png" alt="Logo" width="300" class="img-fluid d-block mx-auto">
+            </a>
+                <!--Caja de búsqueda-->
+                <form class="col-md-6 d-block text-center ">
+                    <p>
+                    <input type="search" name="buscaloquequieras" placeholder="Búsqueda">
+                   <input type="submit" value="Buscar">
+                    </p>    
+                   </form>
+        </div>
+       
         <!-- Navbar -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark row"> 
            <div class="row">
             <div>
-                <a class="navbar-logo" href="#">
-                    <img src="../Pics/logo-ElectricidadSerra.png" alt="Logo" width="300" class="d-block mx-auto">
-                </a>
+
                 <button class="navbar-toggler" 
                 type="button" 
                 data-bs-toggle="collapse" 
@@ -55,15 +65,6 @@
                         </li>
                         <li class="nav-item"><a class="nav-link" href="contactos.html">Contáctanos</a>
                         </li>
-                        
-                            <!--Caja de búsqueda-->
-                         <form class="col-md-offset-4">
-                             <p>
-                             <input type="search" name="buscaloquequieras" placeholder="Búsqueda">
-                            <input type="submit" value="Buscar">
-                             </p>    
-                            </form>
-                        
                     </ul>
                 </div>
                 
@@ -78,18 +79,19 @@
             <div class="container">
             <!--Crear formulario-->
             <form class="row" >
+                <div class="col-12">
                 <fieldset class="contacto">
-                    <legend class="datos"> <span>Llena aquí</span> con tus datos</legend>
-                    <div> 
+                    <legend class="datos text-start"> Llena aquí con tus datos</legend>
+                    <div class="nombres text-start"> 
                         <label for="Nombre">Deja tu nombre</label>
                         <input type="text"name="Nombre" 
                         placeholder="Nombre completo">
                     </div>
-                    <div class="email">
+                    <div class="email text-start">
                         <label for="Email">Déjanos tu email</label>
                         <input type="email" required placeholder="Email">
                     </div>
-                    <div class="pais"> 
+                    <div class="pais text-start"> 
                         <label for="País">Elije tu país</label>
                         <select name="País">
                             <option value="">Selecciona tú país</option>
@@ -100,12 +102,14 @@
                         </select>
                     </div>
                 
-                    <div class="enviar c">
+                    <div class="enviar text-end">
                         <input type="submit"value="Enviar datos">
                         <input type="submit"value="Refrescar">
                     </div>
                 </fieldset>
+                </div>
             </form>
+            
             </div>
         </main>
 

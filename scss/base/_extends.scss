@@ -2,22 +2,26 @@
 /*Extends Cv y contactos*/
 
 %background-cv-contactos{
-    color: white;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     padding: solid 1px white;
     background-size: 50%;
     background-attachment: fixed;
 }
 
 %contacto{
+    color:rgb(255, 255, 255);
     margin: 3px;
     margin-top: 3px;
+    font-size:x-large;
+    font-weight: bold;
 }
 
 %deja-vitae{
     background-image: url(https://grupoas.com.pe/wp-content/uploads/2015/07/minions-10.gif);
     margin: auto;
     background-repeat:repeat;
-    background-position: center;
+    background-position:center;
 }
 
 .deja-cv{

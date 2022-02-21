@@ -8,13 +8,13 @@ $mapas:(
 );
 
 .mapas{
-    background-color: map-get($map: $mapas, $key:bg-mapas);
+  
     padding-top: map-get($map: $mapas, $key:padding-mapas);
     border-radius: map-get($map: $mapas, $key:border-mapas);
 }
 
 $ubicanos:(
-    color-ubicanos: rgb(1, 1, 20),
+    color-ubicanos: rgb(246, 246, 251),
     font-ubicanos:bold,
     text-ubicanos:center,
     marginup-ubicanos:1px,

@@ -3,15 +3,15 @@ $color-Foot: rgb(255, 255, 255);
 $text-align:center;
 $background-heafoot: linear-gradient(90deg, rgba(43,66,210,1) 5%, rgba(165,165,196,1) 47%, rgba(201,2,13,1) 100%);
 $fontheafoot:Lucida 'Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,;
-$background-body:rgb(0, 0, 0);
+$background-body:rgb(117, 117, 117);
 
 /*variables parráfos*/
 $font-somos:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-$color-somos:rgb(131, 6, 6);
+$color-somos:rgba(255, 255, 255, 0.898);
 $fontStyle-somos:italic;
 $fontweight-somos:bold;
-$marginTop-somos:80px;
-$marginBottom-somos:25px;
+$marginTop-somos:50px;
+$marginBottom-somos:3px;
 $textalign-somos:center;
 $marginLeft-somos:auto;
 $marginRight-somos:auto;

@@ -3,7 +3,7 @@
 /*animaciones*/
 /*Estilos body y header*/
 body {
-  background-color: black; }
+  background-color: #757575; }
   body header .container h1 {
     text-align: center;
     background: linear-gradient(90deg, #2b42d2 5%, #a5a5c4 47%, #c9020d 100%);
@@ -13,55 +13,56 @@ body {
     color: #e91111; }
   body header .container nav ul li:hover {
     background: linear-gradient(90deg, #2b42d2 5%, #a5a5c4 47%, #c9020d 100%); }
+  body header .container .navbar-logo {
+    background: linear-gradient(90deg, #2b42d2 5%, #a5a5c4 47%, #c9020d 100%); }
 
 /*mapas*/
 .mapas {
-  background-color: silver;
   padding-top: 10px;
   border-radius: 10px; }
 
 .ubicanos {
-  color: #010114;
+  color: #f6f6fb;
   font-weight: bold;
   text-align: center;
   margin-top: 1px; }
 
 /*background proyecto*/
-body .container {
-  background-image: url(https://scontent.fros9-1.fna.fbcdn.net/v/t1.6435-9/72563384_1467194086766886_8584923503331901440_n.png?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeFHyUwtVbfvFWis4HyNwQyeMRyhXB1MOVExHKFcHUw5UVYnIgNY_N3LWAeuK_YSu64&_nc_ohc=jVWa8rRttscAX9fYu51&tn=5mJf3zXrLvsh2HTR&_nc_ht=scontent.fros9-1.fna&oh=00_AT9kilwxfHkH0sSRoNHFEZVFE0_A9A39izR8jrQB3_PuNQ&oe=623366A5);
+body {
+  background-image: url(/Pics/energia.jpg);
   background-repeat: no-repeat;
-  background-size: auto;
-  background-position: center;
-  background-attachment: fixed; }
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }
 
 /*paráfos*/
 main .container .somos {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: #830606;
+  color: rgba(255, 255, 255, 0.898);
   font-style: italic;
   font-weight: bold;
-  margin-top: 80px;
-  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: 3px;
   text-align: center;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  text-shadow: 100px; }
 
 /*Tocando carusel*/
-body main h5 {
-  color: darkred;
+body main h4 {
+  color: black;
   font-family: cursive;
   font-size: xx-large;
   font-weight: bolder; }
 
 body main .pCarousel {
-  color: #fafafa;
+  color: navy;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: larger;
   font-weight: bolder; }
-  body main .pCarousel .tTengo span {
-    color: darkred; }
   body main .pCarousel .estamos {
-    color: darkred; }
+    color: whitesmoke;
+    background-color: black; }
 
 /*cajas en inicio*/
 main .container .caja {
@@ -106,17 +107,17 @@ main .container .cumpleSerra .banner {
 
 /*Tocando estilos cartas (cards) en main*/
 body main .container h2 {
-  color: #010114;
+  color: #f6f6fb;
   font-weight: bold;
   margin-top: 5px; }
 
 body main .container .somos {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #830606;
+  color: rgba(255, 255, 255, 0.898);
   font-style: italic;
   font-weight: bold;
-  margin-top: 80px;
-  margin-bottom: 25px;
+  margin-top: 50px;
+  margin-bottom: 3px;
   text-align: center;
   margin-left: auto;
   margin-right: auto; }
@@ -139,14 +140,14 @@ body main .container .productosGrid {
     body main .container .productosGrid .img2:hover {
       transform: scale(1.1);
       transition: 3s;
-      margin-left: 45%; }
+      margin-left: 35%; }
   body main .container .productosGrid .img3 {
     padding-top: 1%;
-    margin-left: 75%; }
+    margin-left: auto; }
     body main .container .productosGrid .img3:hover {
       transform: scale(1.1);
       transition: 3s;
-      margin-left: 60%; }
+      margin-left: 10%; }
   body main .container .productosGrid .img4 {
     padding-top: 5%;
     margin-left: 5%; }
@@ -156,11 +157,12 @@ body main .container .productosGrid {
       margin-left: 25%; }
   body main .container .productosGrid .img5 {
     padding-top: 5%;
-    margin-left: 25%; }
+    margin-left: 25%;
+    padding-bottom: 5%; }
     body main .container .productosGrid .img5:hover {
       transform: scale(1.1);
       transition: 3s;
-      margin-left: 45%; }
+      margin-left: 35%; }
 
 /*Quienes somos*/
 main .container .videoSerra {
@@ -170,10 +172,29 @@ main .container .videoSerra {
   margin-bottom: 15%; }
 
 /*Ubicacion*/
-main .container .ubicacionMaps .somos {
-  margin-top: 15%;
-  margin-bottom: 15%;
-  margin-left: 5%; }
+main .container .ubicacionMaps {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+main .container .ubicacionMaps iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+main .container .somosu {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgba(255, 255, 255, 0.898);
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 3px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*Trabajando footer*/
 .footerCont .container {
@@ -219,14 +240,18 @@ main .container .ubicacionMaps .somos {
 
 /*Extends Cv y contactos*/
 .deja-cv, .contacto {
-  color: white;
+  color: black;
+  font-weight: bold;
   padding: solid 1px white;
   background-size: 50%;
   background-attachment: fixed; }
 
 .contacto {
+  color: white;
   margin: 3px;
-  margin-top: 3px; }
+  margin-top: 3px;
+  font-size: x-large;
+  font-weight: bold; }
 
 .deja-cv {
   background-image: url(https://grupoas.com.pe/wp-content/uploads/2015/07/minions-10.gif);

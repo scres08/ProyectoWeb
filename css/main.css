@@ -46,7 +46,8 @@ main .container .somos {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  text-shadow: 100px; }
+  text-shadow: 100px;
+  padding-bottom: 2%; }
 
 /*Tocando carusel*/
 body main h4 {
@@ -106,70 +107,81 @@ main .container .cumpleSerra .banner {
   margin-top: 30%; }
 
 /*Tocando estilos cartas (cards) en main*/
-body main .container h2 {
-  color: #f6f6fb;
-  font-weight: bold;
-  margin-top: 5px; }
-
-body main .container .somos {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgba(255, 255, 255, 0.898);
-  font-style: italic;
-  font-weight: bold;
-  margin-top: 50px;
-  margin-bottom: 3px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; }
-
-body main .container .productosGrid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-between; }
-  body main .container .productosGrid .img1 {
-    margin-left: 5%; }
-    body main .container .productosGrid .img1:hover {
-      transform: scale(1.1);
-      transition: 3s; }
-  body main .container .productosGrid .img2 {
-    padding-bottom: 5%;
-    padding-top: 5%;
-    padding-left: auto;
-    padding-right: auto;
-    margin-left: 25%; }
-    body main .container .productosGrid .img2:hover {
-      transform: scale(1.1);
-      transition: 3s;
-      margin-left: 35%; }
-  body main .container .productosGrid .img3 {
-    padding-top: 1%;
-    margin-left: auto; }
-    body main .container .productosGrid .img3:hover {
-      transform: scale(1.1);
-      transition: 3s;
-      margin-left: 10%; }
-  body main .container .productosGrid .img4 {
-    padding-top: 5%;
-    margin-left: 5%; }
-    body main .container .productosGrid .img4:hover {
-      transform: scale(1.1);
-      transition: 3s;
-      margin-left: 25%; }
-  body main .container .productosGrid .img5 {
-    padding-top: 5%;
-    margin-left: 25%;
-    padding-bottom: 5%; }
-    body main .container .productosGrid .img5:hover {
-      transform: scale(1.1);
-      transition: 3s;
-      margin-left: 35%; }
+body main .container {
+  /*Aplicando grid a las tarjetas*/ }
+  body main .container h2 {
+    color: #f6f6fb;
+    font-weight: bold;
+    margin-top: 5px; }
+  body main .container .somos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(255, 255, 255, 0.898);
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 3px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  body main .container .productosCard {
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 33rem;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); }
+  body main .container .card {
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 5px;
+    flex-direction: column-reverse;
+    align-items: center; }
 
 /*Quienes somos*/
-main .container .videoSerra {
-  display: flex;
-  justify-content: center;
-  margin-top: 15%;
-  margin-bottom: 15%; }
+main .container {
+  /*textos quienes somos*/ }
+  main .container .row {
+    border-radius: 3px solid blue;
+    background-color: black; }
+  main .container .cajaR {
+    border: 3px solid white;
+    width: 393px;
+    height: 249px;
+    background-image: url(/Pics/Serra/casaCentral.png);
+    margin-top: 2px;
+    margin-bottom: 2px; }
+  main .container .cajaSl {
+    border: 3px solid white;
+    width: 393px;
+    height: 249px;
+    background-image: url(/Pics/Serra/sanLorenzo.png);
+    margin-bottom: 2px; }
+  main .container .cajaRo {
+    border: 3px solid white;
+    width: 393px;
+    height: 249px;
+    background-image: url(/Pics/Serra/Roldan.png);
+    margin-top: 2px;
+    margin-bottom: 2px; }
+  main .container .cajaV {
+    border: 3px solid white;
+    width: 393px;
+    height: 249px;
+    background-image: url(/Pics/Serra/ventasOline.png);
+    margin-bottom: 2px; }
+  main .container .cajaSu {
+    border: 3px solid white;
+    width: 500px;
+    height: 154px;
+    background-image: url(/Pics/Serra/Distribuidores.png); }
+  main .container .videoSerra {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    margin-bottom: 15%; }
+  main .container .somos2 {
+    padding-top: 1%;
+    color: whitesmoke; }
+  main .container .somos3 {
+    color: whitesmoke; }
 
 /*Ubicacion*/
 main .container .ubicacionMaps {

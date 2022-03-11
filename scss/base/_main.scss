@@ -23,6 +23,7 @@ main{
         margin-left: $marginLeft-somos;
         margin-right: $marginRight-somos;
         text-shadow: 100px;
+        padding-bottom: 2%;
     }
     }
 }
@@ -130,60 +131,22 @@ body{
                 margin-left:$marginLeft-somos ;
                 margin-right:$marginRight-somos ;
                  }
-           .productosGrid{
+        /*Aplicando grid a las tarjetas*/
+            .productosCard{
             display: grid;
-            grid-template-columns: auto auto auto ;
-            justify-content:space-between;
-                .img1{
-                    margin-left: 5%;
-                    &:hover{
-                        transform: scale(1.1);
-                        transition: 3s;
-                    }
-                }
-                .img2{
-                    padding-bottom: 5%;
-                    padding-top: 5%;
-                    padding-left: auto;
-                    padding-right: auto;
-                    margin-left: 25%;
-                    &:hover{
-                        transform: scale(1.1);
-                        transition: 3s;
-                        margin-left: 35%;
-                    }
-                    
-                }
-                .img3{
-                    padding-top: 1%;
-                    margin-left:auto;
-                    &:hover{
-                        transform:scale(1.1);
-                        transition: 3s;
-                        margin-left: 10%;
-                    }
-                    
-                }
-                .img4{
-                    padding-top: 5%;
-                    margin-left: 5%;
-                    &:hover{
-                        transform: scale(1.1);
-                        transition: 3s;
-                        margin-left: 25%;
-                    }
-                }
-                .img5{
-                    padding-top: 5%;
-                    margin-left: 25%;
-                    padding-bottom: 5%;
-                    &:hover{
-                        transform: scale(1.1);
-                        transition: 3s;
-                        margin-left: 35%;
-                    }
-                }
-                 }
+            gap: 1rem;
+            grid-auto-rows: 33rem;
+            grid-template-columns: repeat(auto-fill, minmax(25rem,1fr));
+            
+            }
+            .card{
+                background-color: aqua;
+                padding: 15px;
+                border-radius: 5px;
+                flex-direction:column-reverse;
+                align-items:center;
+            }
+        
               }
 
     }
@@ -192,6 +155,45 @@ body{
 /*Quienes somos*/
 main{
     .container{
+       .row{ border-radius: 3px solid blue;
+        background-color: black;}
+        .cajaR{
+            border: 3px solid white;
+            width: 393px;
+            height: 249px;
+            background-image: url(/Pics/Serra/casaCentral.png);
+            margin-top: 2px;
+            margin-bottom: 2px;
+            }
+            .cajaSl{
+                border: 3px solid white;
+                width: 393px;
+                height: 249px;
+                background-image: url(/Pics/Serra/sanLorenzo.png);
+                margin-bottom: 2px;
+        
+            }
+            .cajaRo{
+                border: 3px solid white;
+                width: 393px;
+                height: 249px;
+                background-image: url(/Pics/Serra/Roldan.png);
+                margin-top: 2px;
+                margin-bottom: 2px;
+            }
+            .cajaV{
+                border: 3px solid white;
+                width: 393px;
+                height: 249px;
+                background-image: url(/Pics/Serra/ventasOline.png);
+                margin-bottom: 2px;
+            }
+            .cajaSu{
+            border: 3px solid white;
+            width: 500px;
+            height: 154px;
+            background-image: url(/Pics/Serra/Distribuidores.png);
+            }
         .videoSerra{
             display: flex;
             justify-content: center;
@@ -199,8 +201,17 @@ main{
             margin-bottom: 15%;
            
           }
+        /*textos quienes somos*/
+        .somos2{
+            padding-top: 1%;
+            color: whitesmoke;
+        }
+        .somos3{
+            color: whitesmoke;
+        }
     }
 }
+
    /*Ubicacion*/
 main{
     .container{

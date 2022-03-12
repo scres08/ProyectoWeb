@@ -55,7 +55,8 @@ main{
 
     
     .caja{
-        color: antiquewhite;
+        color: rgb(248, 248, 248);
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
         background-color: black;
         background-image: url(https://homesolution.net/blog/wp-content/uploads/2019/12/t%C3%A9rmica-y-disyuntor-2-1024x768.jpg);
         width: 100%;
@@ -73,7 +74,8 @@ main{
         background-size: cover;
         }
     }
-    .caja2{color: whitesmoke;
+    .caja2{color: rgb(248, 248, 248);
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
         border: 3px solid white;
          width: 100%;
         height: 600px;
@@ -88,12 +90,12 @@ main{
         background-position: center;
         background-repeat: no-repeat;
         text-align: center;
-       
+     
            }
            .efecto2 .caja2{
 
             &:hover{
-                background-image: url(../Pics/circuito_serie.jpg);
+                background-image: url(../Pics/Materiales/zapatillas.jpg);
     
                   }
                }
@@ -140,7 +142,8 @@ body{
             
             }
             .card{
-                background-color: aqua;
+                color: aliceblue;
+                background-color: black;
                 padding: 15px;
                 border-radius: 5px;
                 flex-direction:column-reverse;
@@ -161,7 +164,7 @@ main{
             border: 3px solid white;
             width: 393px;
             height: 249px;
-            background-image: url(/Pics/Serra/casaCentral.png);
+            background-image: url(../Pics/Serra/casaCentral.png);
             margin-top: 2px;
             margin-bottom: 2px;
             }
@@ -169,7 +172,7 @@ main{
                 border: 3px solid white;
                 width: 393px;
                 height: 249px;
-                background-image: url(/Pics/Serra/sanLorenzo.png);
+                background-image: url(../Pics/Serra/sanLorenzo.png);
                 margin-bottom: 2px;
         
             }
@@ -177,7 +180,7 @@ main{
                 border: 3px solid white;
                 width: 393px;
                 height: 249px;
-                background-image: url(/Pics/Serra/Roldan.png);
+                background-image: url(../Pics/Serra/Roldan.png);
                 margin-top: 2px;
                 margin-bottom: 2px;
             }
@@ -185,14 +188,14 @@ main{
                 border: 3px solid white;
                 width: 393px;
                 height: 249px;
-                background-image: url(/Pics/Serra/ventasOline.png);
+                background-image: url(../Pics/Serra/ventasOline.png);
                 margin-bottom: 2px;
             }
             .cajaSu{
             border: 3px solid white;
             width: 500px;
             height: 154px;
-            background-image: url(/Pics/Serra/Distribuidores.png);
+            background-image: url(../Pics/Serra/Distribuidores.png);
             }
         .videoSerra{
             display: flex;

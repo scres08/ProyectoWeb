@@ -67,7 +67,8 @@ body main .pCarousel {
 
 /*cajas en inicio*/
 main .container .caja {
-  color: antiquewhite;
+  color: #f8f8f8;
+  -webkit-text-stroke: 1px black;
   background-color: black;
   background-image: url(https://homesolution.net/blog/wp-content/uploads/2019/12/t%C3%A9rmica-y-disyuntor-2-1024x768.jpg);
   width: 100%;
@@ -83,7 +84,8 @@ main .container .efecto .caja:hover {
   background-size: cover; }
 
 main .container .caja2 {
-  color: whitesmoke;
+  color: #f8f8f8;
+  -webkit-text-stroke: 1px black;
   border: 3px solid white;
   width: 100%;
   height: 600px;
@@ -100,7 +102,7 @@ main .container .caja2 {
   text-align: center; }
 
 main .container .efecto2 .caja2:hover {
-  background-image: url(../Pics/circuito_serie.jpg); }
+  background-image: url(../Pics/Materiales/zapatillas.jpg); }
 
 /*banner*/
 main .container .cumpleSerra .banner {
@@ -129,7 +131,8 @@ body main .container {
     grid-auto-rows: 33rem;
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr)); }
   body main .container .card {
-    background-color: aqua;
+    color: aliceblue;
+    background-color: black;
     padding: 15px;
     border-radius: 5px;
     flex-direction: column-reverse;
@@ -145,33 +148,33 @@ main .container {
     border: 3px solid white;
     width: 393px;
     height: 249px;
-    background-image: url(/Pics/Serra/casaCentral.png);
+    background-image: url(../Pics/Serra/casaCentral.png);
     margin-top: 2px;
     margin-bottom: 2px; }
   main .container .cajaSl {
     border: 3px solid white;
     width: 393px;
     height: 249px;
-    background-image: url(/Pics/Serra/sanLorenzo.png);
+    background-image: url(../Pics/Serra/sanLorenzo.png);
     margin-bottom: 2px; }
   main .container .cajaRo {
     border: 3px solid white;
     width: 393px;
     height: 249px;
-    background-image: url(/Pics/Serra/Roldan.png);
+    background-image: url(../Pics/Serra/Roldan.png);
     margin-top: 2px;
     margin-bottom: 2px; }
   main .container .cajaV {
     border: 3px solid white;
     width: 393px;
     height: 249px;
-    background-image: url(/Pics/Serra/ventasOline.png);
+    background-image: url(../Pics/Serra/ventasOline.png);
     margin-bottom: 2px; }
   main .container .cajaSu {
     border: 3px solid white;
     width: 500px;
     height: 154px;
-    background-image: url(/Pics/Serra/Distribuidores.png); }
+    background-image: url(../Pics/Serra/Distribuidores.png); }
   main .container .videoSerra {
     display: flex;
     justify-content: center;
